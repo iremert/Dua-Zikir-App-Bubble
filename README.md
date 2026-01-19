@@ -6,8 +6,7 @@ Bu proje, modern insanın manevi ihtiyaçlarına dijital bir çözüm sunan, **N
 
 ### 🔗 Canlı Demo (Test Sürümü)
 Uygulamanın geliştirme sürümünü buradan inceleyebilirsiniz:
-[https://iremerturk8-43683.bubbleapps.io/version-test/api/1.1/mobile/preview?debug_mode=true&preview_view=Login](https://iremerturk8-43683.bubbleapps.io/version-test/api/1.1/mobile/preview?debug_mode=true&preview_view=Login)
-
+[Tıkla ve Uygulamayı Dene](https://iremerturk8-43683.bubbleapps.io/version-test/api/1.1/mobile/preview?debug_mode=true&preview_view=Login)
 ---
 
 ### 🎯 Proje Amacı
