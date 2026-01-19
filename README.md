@@ -2,34 +2,41 @@
 
 # 🤲 Dua & Zikir App
 
-Bu proje, modern insanın manevi ihtiyaçlarına dijital bir çözüm sunan, **No-Code (Bubble.io)** teknolojisiyle geliştirilmiş bir web uygulaması prototipidir.
+Bu proje, modern insanın manevi ihtiyaçlarına dijital bir çözüm sunan, **No-Code (Bubble.io)** teknolojisiyle geliştirilmiş kapsamlı bir mobil web uygulamasıdır.
 
-### 🔗 Canlı Demo (Test Sürümü)
-Uygulamanın geliştirme sürümünü buradan inceleyebilirsiniz:
-[Tıkla ve Uygulamayı Dene](https://iremerturk8-43683.bubbleapps.io/version-test/api/1.1/mobile/preview?debug_mode=true&preview_view=Login)
----
+### 🎥 Proje Tanıtımı
+Uygulamanın tüm fonksiyonlarını ve akışını aşağıdaki videodan izleyebilirsiniz:
 
-### 🎯 Proje Amacı
-Kullanıcıların anlık ruh hallerine göre filtrelenmiş dua ve zikir önerilerine ulaşmasını sağlamak.
-
-* **Tech Stack:** Bubble.io (Frontend + Backend + DB)
-* **Durum:** Prototype / Development Phase
+[Proje Tanıtım Videosunu İzlemek İçin Tıklayın](https://youtu.be/W9-gEv2_dlw)
 
 ---
 
-## 📸 Proje Mimarisi
+### 🎯 Proje Özellikleri ve Detaylar
 
-### 1. Veritabanı Yapısı (Database)
-Bubble veritabanı üzerinde ilişkisel (relational) bir yapı kurulmuştur.
+Videoda yer almayan veya arka planda çalışan önemli teknik detaylar ve arayüz özellikleri:
 
-*(Buraya Data sekmesinin ekran görüntüsünü sürükleyip bırakın)*
+#### 1. Gelişmiş Kimlik Doğrulama (Authentication)
+Uygulama, güvenli bir üyelik sistemi üzerine kuruludur. "Şifremi Unuttum" akışı tamamen çalışır durumdadır; kullanıcıya otomatik e-posta gönderilir ve güvenli bir şekilde yeni şifre oluşturması sağlanır.
 
-### 2. Algoritma Mantığı (Workflow)
-Kullanıcının seçimine göre doğru içeriği getiren backend mantığı.
+<p float="left">
+  <img src="WhatsApp%20Image%202026-01-19%20at%2016.43.31.jpeg" width="300" alt="Şifre Sıfırlama Maili" />
+  <img src="WhatsApp%20Image%202026-01-19%20at%2016.43.46.jpeg" width="300" alt="Şifre Sıfırlama Ekranı" />
+</p>
 
-*(Buraya Workflow sekmesinin ekran görüntüsünü sürükleyip bırakın)*
+#### 2. Karanlık Mod (Dark Mode) Desteği
+Kullanıcı deneyimini iyileştirmek için dinamik tema değiştirme özelliği eklenmiştir. (Videoda aydınlık mod görünmektedir, karanlık mod arayüzü aşağıdadır).
 
-### 3. Arayüz Tasarımı (UI)
-Kullanıcı dostu mobil arayüz tasarımı.
+<img src="WhatsApp%20Image%202026-01-19%20at%2016.43.10.jpeg" width="300" alt="Karanlık Mod Arayüzü" />
 
-*(Buraya Design sekmesinin veya uygulamanın telefondaki görüntüsünü sürükleyip bırakın)*
+#### 3. Mobil Uyumlu Takvim Entegrasyonu
+Geçmiş zikirlerin takibi ve planlama için telefondan kolayca kullanılabilen "date picker" (tarih seçici) entegre edilmiştir.
+
+<img src="WhatsApp%20Image%202026-01-19%20at%2016.42.54.jpeg" width="300" alt="Takvim Seçimi" />
+
+---
+
+### 🛠 Kullanılan Teknolojiler (Tech Stack)
+* **Platform:** Bubble.io (Full Stack No-Code)
+* **Veritabanı:** Bubble Built-in DB (İlişkisel Veri Yapısı)
+* **Frontend:** Responsive Mobil Tasarım (Flexbox)
+* **Backend Workflows:** Kullanıcı doğrulama, dinamik içerik filtreleme ve e-posta otomasyonları.
